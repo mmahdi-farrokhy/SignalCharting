@@ -22,14 +22,7 @@ namespace SignalCharting
         private const string FAILED_ERROR = "Failed";
         private const string FILE_BROWSER_FILTER = "All files |*.*|Text Files |*.txt";
         private const string INCORRECT_DATA_ERROR = "Incorrect Data!";
-        private const string SERIES_NAME = "Amplitude";
-        
-        enum DataSource
-        {
-            DATA_BASE,
-            TEXT_FILE,
-            NOT_SELECTED
-        }
+        private const string SERIES_NAME = "Amplitude";                
 
         public mainWindow()
         {
